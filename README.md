@@ -1,7 +1,15 @@
-# Momentra landing page
+# Momentra website
 
-Edit `dist/site-config.js` to add the public Windows download URL and GitHub repository URL. Every Download button and GitHub icon uses these two values. Empty URLs show a coming-soon state.
+Landing page: https://bikalbst.github.io/momentra/
 
-Standalone HTML, CSS and JavaScript. No build dependencies required. The software interface is an interactive illustrative preview, not the full video-processing app. It uses the existing Momentra sample image; its original generation notes are in the PeakCut project's packaging/asset-notes.md.
+Windows download: https://github.com/bikalbst/momentra/releases/download/v7/Momentra.exe
 
-Serve `dist` for local preview. Site deployment identity is in `.openai/hosting.json`.
+The site is standalone HTML, CSS and JavaScript in `dist`. The software interface is an interactive illustrative preview, not the video-processing app itself. The sample image comes from the Momentra project.
+
+## Update the website
+
+Edit the files in `dist`, commit, and push to `main`. The GitHub Actions workflow in `.github/workflows/pages.yml` publishes that folder to GitHub Pages. Keep Settings → Pages → Source set to GitHub Actions.
+
+Edit `dist/site-config.js` when changing the Windows download or repository link. Every Download button and GitHub icon uses those two values.
+
+The `.openai/hosting.json` file retains the original private Sites deployment identity; GitHub Pages deploys only `dist`.

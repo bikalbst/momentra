@@ -1,5 +1,5 @@
-// Paste public release and repository URLs here when they are ready.
+// Public Windows release and source repository.
 window.MOMENTRA_CONFIG = {
-  downloadUrl: "",
-  githubUrl: ""
+  downloadUrl: "https://github.com/bikalbst/momentra/releases/download/v7/Momentra.exe",
+  githubUrl: "https://github.com/bikalbst/momentra"
 };
