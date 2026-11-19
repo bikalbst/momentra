@@ -1,5 +1,5 @@
-// Public Windows release and source repository.
+// Download is served with the website, so it works on Sites and GitHub Pages.
 window.MOMENTRA_CONFIG = {
-  downloadUrl: "https://github.com/bikalbst/momentra/releases/download/v7/Momentra.exe",
+  downloadUrl: "assets/downloads/Momentra-Source-Setup-v16.zip",
   githubUrl: "https://github.com/bikalbst/momentra"
 };

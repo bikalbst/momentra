@@ -2,9 +2,11 @@
 
 Landing page: https://bikalbst.github.io/momentra/
 
-Windows download: https://github.com/bikalbst/momentra/releases/download/v7/Momentra.exe
+Windows download: `dist/assets/downloads/Momentra-Source-Setup-v16.zip` (fresh source setup).
 
-The site is standalone HTML, CSS and JavaScript in `dist`. The software interface is an interactive illustrative preview, not the video-processing app itself. The sample image comes from the Momentra project.
+The site is standalone HTML, CSS and JavaScript in `dist`, with lavender, mint and peach colors, scroll reveals and a reduced-motion control. Edit `index.html`, `cozy.css` and `cozy.js`. The studio and feature interactions are illustrative previews; they make no AI calls or uploads. Three supplied full video samples open on demand, with a small silent hero teaser. Web copies retain original duration and audio.
+
+Extract the setup ZIP and launch `Start Momentra.cmd`. It contains no personal keys, accounts, projects or bundled EXE. First setup downloads its private runtime and video tools. The adjacent SHA-256 file verifies the download.
 
 ## Update the website
 
